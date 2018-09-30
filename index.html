@@ -4,341 +4,296 @@
 	<meta charset="UTF-8">
  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=no">
-    <title>方权个人简历</title>
+    <title>bootstrap项目实战</title>
 	<link rel="stylesheet" href="bs/css/bootstrap.min.css"/>
-	<script src="bs/js/jquery.min.js"></script>
-	<script src="bs/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="bs/css/animate.css"/>
+    <link rel="stylesheet" href="bs/css/animate.css"/>
+    <link rel="stylesheet" href="bs/css/index.css"/>
 </head>
-
 <body>
+<!--导航-->
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand hh" href="#"><h3>方权</h3></a><span class="navf">前端开发工程师</span>
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">麦子学院</a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#bbs">论坛</a></li>
+                <li><a href="#html5">前端开发</a></li>
+                <li><a href="#course">最新课程</a></li>
+                <li><a href="#app">移动APP</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+        <!--导航-->
+
     </div>
-    <div class="collapse navbar-collapse xydao" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right himg">
-        <li class="menu"><img src="./img/qq.png" alt="" >1819080149</li>
-        <li class="menu"><img src="./img/email.png" alt="" >1819080149@qq.com</li>
-        <li class="menu"><img src="./img/github.png" alt="" ><a href="https://github.com/fqcto">Github</a></li>
-      </ul>
-    </div>
-  </div>
 </nav>
+<!--导航-->
+	
+	<section id="home">
+		<div class="lvjing">
+			<div class="container">
+				<div class="row wow fadeInUp" data-wow-duration="1s">
+					<div class="col-md-1"></div>
+					<div class="col-md-10">
+						<h1>bootstrap实战课程等你来战!</h1>
+						<p>
+                        本套课程适用于：1.WEB开发人员；2.网站维护人员、管理人员<br/>
+                        培训技能的目标：使用bootstrap框架快速构建响应式网页，颠覆传统WEB前端！
+                    	</p>
+                    	<img src="images/php.jpg" class="img-responsive"alt="php">
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- home -->
 
-<section class="userinfo">
-    <div class="container ">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row">
-              <div class="col-md-3"></div>
-              <div class="col-md-6">
-                <h3>个人信息</h3>
-              </div>
-              <div class="col-md-3"></div>
-            </div>
-           
-            <div class="row">
-              <div class="col-md-3"></div>
-              
-              <div class="col-md-6">
-              <div class="uinfo">
-              <p>男&nbsp;/&nbsp;1996-08-08&nbsp;/&nbsp;大专&nbsp;/&nbsp;现居于武汉</p>
-              <p>求职岗位:前端开发工程师(实习)</p>
-              <!-- <p>期望薪资:税前5k-8k</p> -->
-              <p>到岗时间:一周之内</p>
-              </div>
-              <div class="col-md-3"></div>
-              </div>
-              <div class="col-md-3"></div>
-            </div>
-           
-          </div>
-        </div>
-    </div>
-</section>
+	<!-- bbs -->
+	<section id="bbs">
+		<div class="container">
+			<div class="row wow fadeInUp" data-wow-duration="1s">
+				<div class="col-md-4">
+					<a href="javascript:">
+						<img src="images/a.png" class="img-responsive" alt="">
+						<h3>Android开发</h3>
+						<p>Android开发技术交流、问题求助、实战案例分享</p>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="javascript:">
+						<img src="images/a.png" class="img-responsive" alt="">
+						<h3>IOS开发</h3>
+                    	<p>iOS开发技术交流，海量iOS实战干货分享</p>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="javascript:">
+						<img src="images/a.png" class="img-responsive" alt="">
+						<h3>嵌入式底层开发</h3>
+                    	<p>底层嵌入式开发、实战案例等技术交流讨论</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- bbs -->
 
-<section class="jsz">
-  <div class="container">
-    <div class="row" >
-      <div class="col-md-3"></div>
-      <div class="col-md-6 proj">
-        <h3>熟悉前端，涉猎后端</h3>
-        <h4>所会技术</h4>
-      </div>
-      <div class="col-md-3"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8 jszhan">
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"  aria-valuemin="0" aria-valuemax="100" style="width: 95%"> 
-            </div>
-            </div>
-            html5
-          </div>
+	<!-- html5 -->
+	<section id="html5">
+		<div class="container">
+			<div class="col-md-6 wow fadeInLeft">
+				<h2>HTML5前端开发</h2>
+				<p>一线资深前端开发工程师倾情打造！助你完成普通程序员到优秀工程师的华丽升级！</p>
+				<p><span class="glyphicon glyphicon-grain mai-icon"></span>使用HTML5与CSS3技术轻松实现设备自适应展示。</p>
+				<p><span class="glyphicon glyphicon-grain mai-icon"></span>清晰明了的语义代码结构，更高的可读性、更利于页面维护的。</p>
+			</div>
+			<div class="col-md-6 wow fadeInRight">
+				<img src="images/html5.jpg" class="img-responsive" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- html5 -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"  aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 
-            </div>
-            </div>
-            css3
-          </div>
+	<!-- bootstrap -->
+	<section id="bootstrap">
+		<div class="container wow fadeInUp">
+			<div class="col-md-6">
+				<img src="images/Bootstrap.jpg" alt="" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+				<h2>bootstrap实战视频教程</h2>
+				<p>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。</p>
+				<p><span class="glyphicon glyphicon-grain mai-icon"></span>你的网站和应用能在 Bootstrap 的帮助下通过同一份代码快速、有效适配手机、平板、PC 设备。</p>
+				<p><span class="glyphicon glyphicon-grain mai-icon"></span>Bootstrap 提供了全面、美观的文档。你能在这里找到关于 HTML 元素、HTML 和 CSS 组件、jQuery 插件方面的所有详细文档。</p>
+			</div>
+		</div>
+	</section>
+	<!-- bootstrap -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40"  aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 
-            </div>
-            </div>
-            javascript
-          </div>
+	<!-- course -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"  aria-valuemin="0" aria-valuemax="100" style="width: 60%"> 
-            </div>
-            </div>
-            jquery
-          </div>
+	<section id="course">
+		<div class="container">
+			<div class="row wow fadeIn" data-wow-delay="0.6s">
+				<div class="col-md-12">
+					<h2>最新课程</h2>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="course">
+						<img src="images/swift.jpg" alt="" class="img-responsive">
+						<a href="javascript:" class="btn btn-primary" role="button">加入学习</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- course -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"  aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 
-            </div>
-            </div>
-            bootstrap
-          </div>
+	<!-- app -->
+	<section id="app">
+		<div class="container">
+			<div class="row wow fadeInUp">
+				<div class="col-md-6">
+					<h2>麦子学院移动APP下载</h2>
+					<p>
+                    全新UI交互，与新网站数据同步，更加丰富的课程，开启精彩无限，语音搜索课程，喊出你想要的课程，一件收藏，方便自己重复学习，离线下载课程，在哪儿都能开！
+                	</p>
+                	<button class="btn btn-primary">
+        			<span class="glyphicon glyphicon-download-alt"></span>
+        			iPhone版
+                	</button>
+                	<button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    Android版
+                	</button>
+				</div>
+				<div class="col-md-6">
+					<img src="images/app-banner.jpg" alt="" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- app -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"  aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 
-            </div>
-            </div>
-            angular
-          </div>
+	<!-- contact -->
+	<section id="contact">
+		<div class="lvjing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInLeft">
+						<h2>
+							<span class="glyphicon glyphicon-send"></span>
+							&nbsp;
+							联系小麦
+						</h2>
+						<p>
+							麦子学院是成都麦子信息技术有限公司旗下一个IT在线教育平台，目前已有30万注册用户，10万以上APP下载量，5000小时视频内容。 我们从不说空话，专注于IT在线教育，脱离传统教育的束缚，让你走哪学哪，想学就学。逗比的老师，贴心的助教，在这儿你能感受到来自五 湖四海伙伴们热情和踏实的学习态度！
+						</p>
+						<address>
+							<p>
+								<span class="glyphicon glyphicon-home"></span>&nbsp;
+                            	地址:成都市高新区天府软件园D5-11
+							</p>
+							<p>
+                            <span class="glyphicon glyphicon-phone-alt"></span>
+                            &nbsp;
+                            联系电话：028-86567913
+                       	 	</p>
+                       	 	<p>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            &nbsp;
+                            邮箱:hr@maiziedu.com
+                        	</p>
+						</address>
+					</div>
+					<div class="col-md-6 wow fadeInRight">
+					<form action="" method="post">
+					<div class="col-md-6">
+						<input type="text" class="form-control" placeholder="您的姓名">
+					</div>
+					<div class="col-md-6">
+						<input type="email" class="form-control" placeholder="您的邮箱">
+					</div>
+					<div class="col-md-12">
+						<input type="text" class="form-control"
+						placeholder="标题">
+					</div>
+					<div class="col-md-12">
+						<textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+					</div>
+					<div class="col-md-8">
+						<input type="submit" class="form-control" value="提交">
+					</div>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- contact -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"  aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 
-            </div>
-            </div>
-            node
-          </div>
+<!-- footer -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p>Copyright&nbsp;©&nbsp;2018&nbsp;&nbsp;方权&nbsp;&nbsp;鄂&nbsp;ICP备1314520号-4</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer -->
 
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 45%"> 
-            </div>
-            </div>
-            react
-          </div>
-
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 35%"> 
-            </div>
-            </div>
-            微信小程序
-          </div>
-
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-            </div>
-            </div>
-            php
-          </div>
-
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 
-            </div>
-            </div>
-            mysql
-          </div>
-
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-            </div>
-            </div>
-            thinkphp
-          </div>
-
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 
-            </div>
-            </div>
-            github
-          </div>
-
-
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 75%"> 
-            </div>
-            </div>
-            php高级爬虫
-          </div>
-          
-          <div class="col-md-2">
-            <div class="progress">
-            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="100" style="width: 75%"> 
-            </div>
-            </div>
-            Linux
-          </div>
-      </div>
-
-      <div class="col-md-2"></div>
-    </div>
-  </div>
-</section>
-
-<section class="life">
-  
-</section>
-
-<section class="project">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8 ">
-        <div class="row proj">
-          <h3>项目经验</h3>
-        <h4>业余时间喜欢钻研新技术</h4>
-        </div>
-        <div class="prohr">
-        <div class="row protext">
-          <p>github&nbsp;Page&nbsp;搭建个人简历&nbsp;&nbsp;<a href="https://fqcto.github.io">项目地址</a></p>
-        </div>
-        <div class="row ">
-          <p class="proicon">
-            <div class="proicon1">html5</div>
-            <div class="proicon2">css3</div>
-            <div class="proicon3">javascript</div>
-            <div class="proicon4">bootstrap</div>
-             <span class="pull-right">2018-10---至今</span>
-          </p>
-          <div class="row protxt">
-            <p>1、使用h5+css3构建项目</p>
-            <p>2、使用bootstrap栅格技术布局</p>
-            <p>3、掌握使用bootstrap样式、组件及插件渲染</p>
-            <p>4、使用github平台技术搭建个人简历项目</p>
-          </div>
-          </div>
-          </div>
-
-
-          <div class="prohr">
-        <div class="row protext">
-          <p>Bootstrap综合项目实战（静态）&nbsp;&nbsp;<a href="https://fqcto.github.io">项目地址</a></p>
-        </div>
-        <div class="row ">
-          <p class="proicon">
-            <div class="proicon1">html5</div>
-            <div class="proicon2">css3</div>
-            <div class="proicon3">javascript</div>
-            <div class="proicon4">bootstrap</div>
-             <span class="pull-right">2018-9---至今</span>
-          </p>
-          <div class="row protxt">
-            <p>1、使用h5+css3构建项目</p>
-            <p>2、使用bootstrap栅格技术布局</p>
-            <p>3、熟练掌握使用bootstrap样式、组件及插件渲染</p>
-            <p>4、使用bootstrap不同效果插件实现脱颖而出效果</p>
-          </div>
-          </div>
-          </div>
-
-
-        <div class="prohr">
-        <div class="row protext">
-          <p>Myshop&nbsp;电子商城项目&nbsp;&nbsp;<a href="https://fqcto.github.io">项目地址</a></p>
-        </div>
-        <div class="row ">
-          <p class="proicon">
-            <div class="proicon1">html5</div>
-            <div class="proicon2">css3</div>
-            <div class="proicon3">javascript</div>
-            <div class="proicon4">bootstrap</div>
-            <div class="proicon6">jquery</div>
-            <div class="proicon5">php</div>
-            <span class="proicon7">mysql</span>
-             <span class="pull-right">2018-8---至今</span>
-          </p>
-          <div class="row protxt">
-            <p>1、使用h5+css3+javascript+bs设计前后台静态页面</p>
-            <p>2、使用bootstrap栅格技术布局</p>
-            <p>3、使用bootstrap样式、组件渲染视觉效果</p>
-            <p>4、使用php+mysql技术实现前台与后端数据交互功能</p>
-          </div>
-          </div>
-          </div>
-
-
-        <div class="prohr">
-        <div class="row protext">
-          <p>响应式布局实战动漫项目&nbsp;&nbsp;<a href="https://fqcto.github.io">项目地址</a></p>
-        </div>
-        <div class="row ">
-          <p class="proicon">
-            <div class="proicon1">html5</div>
-            <div class="proicon2">css3</div>
-            <div class="proicon3">javascript</div>
-            <div class="proicon4">bootstrap</div>
-            <div class="proicon6">jquery</div>
-            <div class="proicon5">php</div>
-            <span class="proicon7">mysql</span>
-             <span class="pull-right">2018-6---至今</span>
-          </p>
-          <div class="row protxt">
-            <p>1、使用h5+css3+bs构建项目</p>
-            <p>2、使用bootstrap栅格技术布局</p>
-            <p>3、使用bootstrap样式、组件及插件渲染</p>
-            <p>4、使用bootstrap不同效果插件实现脱颖而出效果</p>
-            <p>5、使用php+mysql技术实现前台与后端数据交互功能</p>
-          </div>
-          </div>
-          </div>
-
-
-        
-
-
-        <div class="prohr">
-        <div class="row protext">
-          <p>Bootstrap新浪云项目实例（静态）&nbsp;&nbsp;<a href="https://fqcto.github.io">项目地址</a></p>
-        </div>
-        <div class="row ">
-          <p class="proicon">
-            <div class="proicon1">html5</div>
-            <div class="proicon2">css3</div>
-            <div class="proicon4">bootstrap</div>
-             <span class="pull-right">2018-5---至今</span>
-          </p>
-          <div class="row protxt">
-            <p>1、使用h5+css3+bs构建项目</p>
-            <p>2、使用bootstrap栅格技术布局</p>
-            <p>3、使用bootstrap样式、组件及插件渲染页面</p>
-          </div>
-          </div>
-          </div>      
-       
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-  </div>
-</section>
+<script src="bs/js/jquery.min.js"></script>
+<script src="bs/js/bootstrap.min.js"></script>
+<script src="bs/js/jquery.singlePageNav.min.js"></script>
+<script src="bs/js/wow.min.js"></script>
+<script>
+  $(function(){
+    /*导航跳转效果插件*/
+    $('.nav').singlePageNav({
+      offset:70
+    });
+    /*小屏幕导航点击关闭菜单*/
+    $('.navbar-collapse a').click(function(){
+      $('.navbar-collapse').collapse('hide');
+    });
+    new WOW().init();
+  })
+</script>
 </body>
 </html>
